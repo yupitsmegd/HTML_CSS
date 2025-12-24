@@ -1,12 +1,22 @@
 <!doctype html>
 
 <!--A simple web interface which shows an amazon type view of a product-->
+<header class="righte">
+    AMAZON
+
+</header>
 
 <a href="https://www.amazon.in/">
     Back to Amazon
 </a>
 
 <style>
+    .righte{
+        font-size: 70px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
 .but1{background-color: rgb(255, 238, 0);
     font-size: 14px;
     border-radius: 40px;
@@ -15,6 +25,10 @@
     border:none;
     margin-right:20px;
     cursor: pointer;
+    transition: opacity 0.25s
+}
+.but1:hover{
+    opacity: 0.7;
 }
 .but2{background-color: rgb(187, 130, 8);
     font-size: 14px;
@@ -22,8 +36,13 @@
     width: 150px;
     height: 30px;
     border:none;
+        cursor: pointer;
+    transition: opacity 0.25s
 }
-.game{
+.but2:hover{
+    opacity: 0.7;
+}
+    .game{
     font-size: 34px;
     font-family: Arial;
     font-weight: bold;
@@ -36,6 +55,23 @@
     margin-bottom: 10;
 
 }
+.Hala{
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.bb{
+    font-size: 15px;
+     font-family: Arial;
+         margin-top: 10px;
+}
+
+.typo:hover{
+    color:blueviolet;
+
+}
+
 </style>
 
 <p class="game">
@@ -48,7 +84,18 @@
     Free Delivery Tomorrow
 </p>
 
-<button class="but1"  onclick="window.location.href='https://aternos.org/:en/'" >
+<button class="but1"  onclick="window.location.href='https://amzn.in/d/7G7luYW">
     Add to Cart
 </button>
 <button class="but2">Buy Now</button>
+<p class="Hala">
+    Why use Amazon
+</p>
+
+<p class="bb">
+    Smart Ecommerce right at your finger tips
+</p>
+
+<u><a href="https://amzn.in/d/5nxY5Mj" class="typo">
+    Checkout our latest product
+</a></u>
